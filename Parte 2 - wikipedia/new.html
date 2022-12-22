@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="./css/estilo.css">
+        <link rel="icon" href="img/Wikipedia.png" sizes="192x192">
+        <title>New</title>
+    </head>
+    <body>
+        <h1 style="text-align: center">Proyecto Final: Parte 2</h1>
+        <nav>
+            <ul>
+                <li><a href="./register.pl">Registrarse</a></li>
+                <li><a href="./login.html">Ingresar</a></li>
+                <li><a href="./new.html">Artículo</a></li>
+            </ul>
+        </nav> </br>
+        <div style="text-align: center;">
+            <form action="./cgi-bin/new.pl" method="POST">
+                <label for="title">Título: </label> </br>
+                <input type="text" name="title" required><br/>
+                <label for="text">Texto: </label> </br>
+                <textarea rows="20" type="text" name="text" required></textarea><br/>
+                <label for="owner">Usuario: </label> </br>
+                <input type="text" name="owner" required><br/>
+                <input type="submit" value="Enviar"/> </br></br>
+            </form>
+            <h3><a href="./index.html">Volver al inicio</a></h3>
+        </div>
+    </body>
+</html>

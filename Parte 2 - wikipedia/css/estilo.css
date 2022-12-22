@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(https://th.bing.com/th/id/R.dae9ff2f9a3809d185d75dd5a8df0a45?rik=Ph2Ptv61sR89cw&pid=ImgRaw&r=0) no-repeat center center fixed;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    background-color: #212F3D;
+    color: white;
+    padding: 20px;
+}
+h2, p {
+    margin: 10px;
+}
+nav ul {
+    background-color: #2E4053 ;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+}
+nav li {
+    display: inline-flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover {
+    background-color: #7E817E;
+}
+img {
+    display: block;
+    margin: auto;
+    height: 383px;
+
+}
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+footer p {
+    text-align: center;
+    padding: 50px;
+}
